@@ -109,7 +109,7 @@ For clamped beams (either both ends clamped or one end clamped), the moments at 
    - Use the standard procedure to estimate the bending moment distribution along the beam in terms of these unknown moments \( m_n \).
 
 3. **Finite Difference Method (FDM) Equations**:
-   - While solving the FDM equations, add an additional boundary condition that enforces the slope to be zero at each clamped joint (i.e., $ \frac{dw}{dx} = 0 $)
+   - While solving the FDM equations, add an additional boundary condition that enforces the slope to be zero at each clamped joint (i.e., $\frac{dw}{dx} = 0$)
 
 4. **Solve the System**:
    - Solve the resulting system of equations, which now includes the unknown moments \( m_n \).
